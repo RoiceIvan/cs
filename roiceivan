@@ -1,0 +1,18 @@
+alias +jumpduck "+duck; +jump";
+alias -jumpduck "-duck; -jump";
+bind "c" +jumpduck;
+alias +shownet "+showscores; net_graphheight 64";
+alias -shownet "-showscores; net_graphheight 9999";
+net_graph 1;
+alias +jumpthrow "+jump; -attack";
+alias -jumpthrow -jump;
+bind "space" +jumpthrow;
+cl_crosshaircolor 3; cl_fixedcrosshairgap -2.5; cl_crosshairstyle 1;
+viewmodel_fov 68; viewmodel_offset_x 2.5; 
+viewmodel_offset_y 1; viewmodel_offset_z -1.5; 
+viewmodel_presetpos 3; cl_viewmodel_shift_left_amt 0; 
+cl_viewmodel_shift_right_amt 0; viewmodel_recoil 0; cl_righthand 1;
+con_filter_text damage;
+con_filter_enable 2;
+developer 1;
+con_filter_text_out Player:
