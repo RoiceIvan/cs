@@ -1,5 +1,7 @@
 alias +jumpduck "+duck; +jump";
 alias -jumpduck "-duck; -jump";
+bindtoggle c cl_righthand
+bindtoggle g gameinstructor_enable
 bind "c" +jumpduck;
 alias +shownet "+showscores; net_graphheight 64";
 alias -shownet "-showscores; net_graphheight 9999";
