@@ -22,5 +22,7 @@ cl_radar_square_with_scoreboard 1;
 con_filter_text damage;
 con_filter_enable 2;
 developer 1;
+bind ' "say ????"
+bind ] "say TRIGGERED"
+bind [ "say U MAD?"
 con_filter_text_out Player:
-
