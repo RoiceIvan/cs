@@ -23,6 +23,12 @@ con_filter_text damage;
 con_filter_enable 2;
 developer 1;
 bind ' "say ????"
-bind ] "say TRIGGERED"
-bind [ "say U MAD?"
-con_filter_text_out Player:
+bind ] "say nt"
+bind [ "say gh" 
+bind MWHEELDOWN "+jump" 
+bind MWHEELUP "say Keep your face to the sunshine and you cannot see a shadow" 
+bind MWHEELUP "say Pessimism leads to weakness, optimism to power" 
+bind MWHEELUP "say You can’t make positive choices for the rest of your life without an environment that makes those choices easy, natural, and enjoyable."
+bind MWHEELUP "say Perpetual optimism is a force multiplier." 
+bind MWHEELUP "say I'm depressed."
+Con_filter_text_out Player:
