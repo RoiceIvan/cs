@@ -26,5 +26,6 @@ bind ' "say ????"
 bind ] "say nt"
 bind [ "say gh" 
 bind MWHEELDOWN "+jump" 
-bind MWHEELUP "say You can’t make positive choices for the rest of your life without an environment that makes those choices easy, natural, and enjoyable."
+bind MWHEELUP "say Pessimism leads to weakness, optimism to power"
+bind Space "Say Every moment is a fresh beginning.; +jump     
 Con_filter_text_out Player:
