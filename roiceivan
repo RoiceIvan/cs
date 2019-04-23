@@ -27,5 +27,5 @@ bind ] "say nt"
 bind [ "say gh" 
 bind MWHEELDOWN "+jump" 
 bind MWHEELUP "say Pessimism leads to weakness, optimism to power"
-bind Space "Say Every moment is a fresh beginning.; +jump     
+bind Space "+jump ;Say Every moment is a fresh beginning.; -jump"     
 Con_filter_text_out Player:
