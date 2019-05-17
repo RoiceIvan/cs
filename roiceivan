@@ -22,10 +22,10 @@ cl_radar_square_with_scoreboard 1;
 con_filter_text damage;
 con_filter_enable 2;
 developer 1;
+cl_autowepswitch 0
 bind ' "say ????"
 bind ] "say nt"
 bind [ "say gh" 
 bind MWHEELDOWN "+jump" 
-bind MWHEELUP "say Pessimism leads to weakness, optimism to power"
-bind Space "+jump ;Say Every moment is a fresh beginning.; -jump"     
+bind MWHEELUP "say Pessimism leads to weakness, optimism to power"     
 Con_filter_text_out Player:
