@@ -27,5 +27,5 @@ bind ' "say ????"
 bind ] "say nt"
 bind [ "say gh" 
 bind MWHEELDOWN "+jump" 
-bind MWHEELUP "say Pessimism leads to weakness, optimism to power"     
+bind shift "+speed; r_cleardecals"    
 Con_filter_text_out Player:
