@@ -15,6 +15,3 @@ mp_startmoney 60000
 mp_buytime 9999
 mp_buy_anywhere 1
 mp_restartgame 1
-mp_items_prohibited 0
-mp_drop_knife_enable 1
-give weapon_knife_butterfly;ent_fire weapon_knife addoutput "classname weapon_knifegg"
